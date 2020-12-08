@@ -1,6 +1,12 @@
 # @js8path/js8path-vue
 Vue.js web UI for JS8Path
 
+JS8Path tracks JS8Call reports on pskreporter.
+ - searches for reports for specific stations
+ - shows time and strength of individual reports
+ - maps reports
+ - analyzes potential relay paths
+
 ## Project setup
 ```
 yarn install
