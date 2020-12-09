@@ -66,6 +66,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
    - per-link azimuthal (trip-tik)
    - setting for specified/fixed grayline
 
+## [1.0.1] - unreleased
+
+### Changed
+- allow console.log statements in build for now
+- use full pskreporter API URL in production build
+
 ## [1.0.0] - 2020-12-07
 
 ### Changed

@@ -67,8 +67,8 @@ export default {
           },
           false,
           {
-            // (CORS ERROR) url: 'https://retrieve.pskreporter.info/query/'
-            url: '/api/pskreporter'
+            // '/api/pskreporter' or 'https://retrieve.pskreporter.info/query'
+            url: process.env.VUE_APP_API_URL_PSKREPORTER
           }
         )
       }).then(function (receptionReports) {
