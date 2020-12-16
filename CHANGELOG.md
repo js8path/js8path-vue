@@ -71,6 +71,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 - allow console.log statements in build for now
 - use full pskreporter API URL in production build
+  - prefix url with cors-anywhere URL
+  - build works from local filesystem and github pages
 
 ## [1.0.0] - 2020-12-07
 
