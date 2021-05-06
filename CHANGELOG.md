@@ -66,6 +66,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
    - per-link azimuthal (trip-tik)
    - setting for specified/fixed grayline
 
+## [1.0.2] - unreleased
+
+### Changed
+- change production build back to API URL for use with js8path-server
+
 ## [1.0.1] - unreleased
 
 ### Changed
