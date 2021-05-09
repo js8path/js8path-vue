@@ -66,6 +66,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
    - per-link azimuthal (trip-tik)
    - setting for specified/fixed grayline
 
+## [1.0.2] - 2021-05-09
+
+### Changed
+- change production build back to API URL for use with js8path-server
+
+## [1.0.1] - unreleased
+
+### Changed
+- allow console.log statements in build for now
+- use full pskreporter API URL in production build
+  - prefix url with cors-anywhere URL
+  - build works from local filesystem and github pages
+
 ## [1.0.0] - 2020-12-07
 
 ### Changed
